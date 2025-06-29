@@ -10,12 +10,19 @@ import plotly.graph_objects as go
 #st.write(b) # prints in streamlit window
 #print(b) # prints in terminal, if 
 
-st.set_page_config(page_title="Sales Dashboard", layout="wide")
+st.set_page_config(page_title="Demo Sales Dashboard", layout="wide")
 
 st.title("Streamlit Sales Dashboard using Plotly")
 st.markdown("testing out python **streamlit** interactive app. from example on kdnuggets.com")
+st.markdown("using: python streamlit, pandas, numpy, plotly")
+# create markdown bullet list using st.markdown
+st.markdown("""
+            * efficient
+            * interactive
+            * deploy to streamlit community
+            """)
 
-#st.write("This is a **markdown** paragraph")
+#st.write("This is also a **markdown** paragraph")
 
 # generate sample data
 np.random.seed(40)
