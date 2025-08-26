@@ -9,4 +9,6 @@ can run in vs code in terminal and get browser preview with:
 
 * streamlit run step3_dashboard_csv.py
 
+NOTE: .devcontainer folder added to this repo accidentally or possibly through AI agent or other auto process. No idea what it is for or what it does.
+
 
